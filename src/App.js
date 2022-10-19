@@ -16,7 +16,7 @@ function App() {
     })
 
     const handleClick = () => {
-        axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=c412e32f8374f6a87ce341d095a159f6`)
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=c412e32f8374f6a87ce341d095a159f6`)
             .then((response) => {
              
                 let values=response.data;
