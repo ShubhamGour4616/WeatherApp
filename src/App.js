@@ -20,6 +20,7 @@ function App() {
             .then((response) => {
              
                 let values=response.data;
+                console.log(values);
                 setData({
               
                   
